@@ -1,4 +1,10 @@
 # first-vue-app
+- command to initialize Vue Project: 
+
+`npx vue-cli <template-name> <project-name>`
+
+eg: `npx vue-cli webpack-simple first-vue-project`
+
 - Vue CLI (2.X: vue-cli) - creates invalid bundle w/o index.html in dist folder, therefore, it cannot be deployed
 - Must use(3.x: @vue/cli) - to initialize Vue projects with correct build (or edit webpack.config.js with additional plugin)
 
